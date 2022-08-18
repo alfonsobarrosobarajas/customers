@@ -16,7 +16,7 @@ public class CustomerRestController {
     private CustomerService customerService;
 
     @GetMapping()
-    public List<Object> findAll(){
+    public List<String> findAll(){
         try {
             return customerService.findAll();
         } catch (Exception e) {

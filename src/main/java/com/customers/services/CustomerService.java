@@ -9,22 +9,21 @@ import java.util.List;
 @Service
 public class CustomerService {
 
-
-    public List<Object>findAll() throws Exception {
-        List<Object> objectList = new LinkedList<>();
+    public List<String> findAll() throws Exception {
+        List<String> objectList = new LinkedList<>();
         BigQuery bigQuery = BigQueryOptions.newBuilder().setProjectId("testing-359803").build().getService();
         String FIND_ALL = "SELECT * FROM testing-359803.customer_ds.transactions";
         QueryJobConfiguration queryJobConfiguration = QueryJobConfiguration.newBuilder(FIND_ALL).build();
         Job job = bigQuery.create(JobInfo.newBuilder(queryJobConfiguration).build());
-        if(job==null){
+        if (job == null) {
             throw new Exception("Job no longer exists");
         }
-        if(job.getStatus().getError()!=null){
+        if (job.getStatus().getError() != null) {
             throw new Exception(job.getStatus().getError().toString());
         }
         TableResult tableResult = job.getQueryResults();
-        for(FieldValueList row : tableResult.iterateAll()){
-
+        for (FieldValueList row : tableResult.iterateAll()) {
+            objectList.add(row.toString());
         }
         return objectList;
     }
