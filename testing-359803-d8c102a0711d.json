@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "testing-359803",
+  "private_key_id": "d8c102a0711dd0cf8f6f61f1a8c501785aad1fce",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDKyXNejGDLAMQw\ncRjCW5nBJ2ajSq1OkZS8hLnSCTaqqaRoI5+5B7dwfu2SYYsJ77zTcGl4dc7I4O34\nxOOgnvD1tXQV7BD8cfEANojL2NOOoX8pihPDKPFOfXX8yKGLlwI8cjngcgky7ZCw\nx21LLpmmVBD53AavvhHd9sk/C26Jjl+73cX0GLCtV3DbSrk3Cc8NXxdFU6N9ZqVr\n+i3HVApo6WXM5i5BIa1XMzBDKI44nponzAR+BH8vBZrOEt/n4qpfNSa5BFhIFZgg\njPTjgoi8iMW8g0RqfTuxM5CBYdRe9nmSPHxsDhtEQemp++wWBKs8atp7Qd4N6AUf\nkATTIRArAgMBAAECggEAAI6VFolkKqqR32AwJTiDL5igG4q09yZHNk1XBVCpKcbV\ngMO4SJXQ1ypCFMjXzOsvpZUFdSM9sieL/8bqqSJGnyYkb3r6gPb/JnT/4y9xRU8E\nPmT2sO6H2yNVE6CpcOy1QN0/c3JcvBsS7qldj3tNSLuqYEVOb2UiP23SF648W3xb\nXhfVOm0+sl6kil2wDBoGJeu9xP19M1mr4R0PzjdPwgBo1tTqx6znFsQsDtjEXfQp\nqv1N6O7oaZrf4l7HBQTbSHh9tKtZzo4lpAsxYP3InZdAbEyd4u2ezuJdxsEzn/zh\nmbTYpv87GUZ1ir9OWS/mM8j1z9ItoEAcciz2Fi3bQQKBgQDwUp0tinwOiwjY+9oJ\nM8PuamZmL+3+HZcEMEGDil6pgPGfJCCSWdIYfZ5ysYb+XWNt7mDmxijkBn/myAMR\nSJ3MTwtSlgPQqtJQqUIlruD8GMeAcXjdWdHaijvhxAl1aa9qnr5qj9BX2NwRIbXu\nyX5p8bevYUPgqgpsXpKG408eyQKBgQDYA/1LPkWzv7DatHLxvA96UKPMfNn/M+d7\nI6CaMtYgdfO8XFGJ/oSJ8WM2blMJJG7pKdA8q1EoprEYp0EHzPTLG9zHG89/Nu2q\nwA/lsvpJQzuP4yltZrRJrdScFCHJWvUntx+xX0B4voP48yf8mPjmt/raWJWIKIGV\ngGk1NCrtUwKBgHbuW4y7GRPVaKaBVPDy5kbp7w0pMR1uJVtUSke/xYMbJfg818W1\nn8yw9iYKhyUAsIEp1FjAvmHCea+LUkFOb5E5mP/g77hnoTd73BlsBzmbRbfh8A+T\nMNB3UpUy//9UMxSPxOpVi6S91ILB7RhkLSRfFCk9+GqJnCjvUJJikbhJAoGBAKyO\ng0gX9pYgCqaqfyebksGiqTYwhfPXApLbYu/KrEJB9vIAzSHurvGCYj6Y4rvq3q5j\nOHU+ZRaUEeQft1MD5ohZOYPUM2zr8+7yfcB/uG/NxUarr+w0ntA8jBoh+tteTXfs\nUOTfsiDCD6pOkyK1EB892KWTHeAme11xtplJkwEBAoGBALkjaaBsx0cGtKbNNVYS\nX0lYQ8eRXhbV4Ii2NgybSIJQsZ+RHdkYo+BePsaCuQJQQmhB84GcH3JmXggp/f5c\nSRXy3YrMW17m4IvAV3eOFFrQ221yME+TqobQ8RxJhZY09fXr5FzpXjpnSl1rtFNU\ngZNsaL3lXw2EpzOBGQswiseH\n-----END PRIVATE KEY-----\n",
+  "client_email": "spring-customer@testing-359803.iam.gserviceaccount.com",
+  "client_id": "112555338353227342768",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spring-customer%40testing-359803.iam.gserviceaccount.com"
+}
